@@ -1,4 +1,4 @@
 # VBA関連ファイルをShift-JISとして扱い、Git上ではUTF-8で管理する
-*.bas text working-tree-encoding=shift_jis checkout-index=-f
-*.cls text working-tree-encoding=shift_jis checkout-index=-f
-*.frm text working-tree-encoding=shift_jis checkout-index=-f
+*.bas text working-tree-encoding=shift_jis
+*.cls text working-tree-encoding=shift_jis
+*.frm text working-tree-encoding=shift_jis
