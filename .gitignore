@@ -1,0 +1,34 @@
+# 一般的な除外ファイル
+
+# OS・エディタ関連
+.DS_Store
+Thumbs.db
+~$*
+*.tmp
+.vscode/
+
+# バックアップ・一時ファイル
+*.bak
+*.backup
+*.log
+logs/
+
+# Excelファイル
+*.xls*
+~$*.xls*
+
+# Accessファイル
+*.accdb
+*.mdb
+~$*.accdb
+~$*.mdb
+
+# XVBAやVBA関連
+/xvba_excel_backup/
+vba_excel_backup/
+
+# 依存ファイル
+node_modules/
+
+# Git自身
+!.gitignore
